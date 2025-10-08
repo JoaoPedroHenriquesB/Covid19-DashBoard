@@ -1,64 +1,66 @@
 # Covid-19 Dashboard 🦠
 
-Um dashboard interativo para visualização de dados da Covid-19, construído com Streamlit, Pandas e Plotly.
+An interactive dashboard for visualizing Covid-19 data, built with Streamlit, Pandas, and Plotly.
 
-## 📜 Sobre o Projeto
+## 📜 About the Project
 
-Este projeto apresenta um dashboard web que permite aos usuários explorar dados globais da Covid-19. É possível filtrar os dados por país e visualizar diferentes métricas, como casos confirmados, mortes, recuperados, entre outros, de forma simples e intuitiva.
+This project presents a web dashboard that allows users to explore global Covid-19 data. It is possible to filter the data by country and visualize different metrics, such as confirmed cases, deaths, and recovered, in a simple and intuitive way.
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- **Visualização Interativa:** Gráfico de barras dinâmico que se atualiza com base nas seleções do usuário.
-- **Filtro por País/Região:** Permite selecionar um país específico ou visualizar dados globais.
-- **Seleção de Métricas:** Escolha entre diversas métricas como "Confirmados", "Mortes", "Recuperados", "Casos Ativos", etc.
-- **Ranking Top 20:** Ao selecionar "All" (Todos), o gráfico exibe os 20 países com os maiores números para a métrica escolhida.
+- **Interactive Visualization:** Dynamic bar chart that updates based on user selections.
+- **Filter by Country/Region:** Allows selecting a specific country or viewing global data.
+- **Metric Selection:** Choose from various metrics like "Confirmed", "Deaths", "Recovered", "Active Cases", etc.
+- **Top 20 Ranking:** When "All" is selected, the chart displays the 20 countries with the highest numbers for the chosen metric.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
+The project was developed using the following technologies:
 
-- **Python:** Linguagem de programação principal.
-- **Streamlit:** Framework para a criação rápida de aplicações web de dados.
-- **Pandas:** Biblioteca para manipulação e análise dos dados a partir do arquivo CSV.
-- **Plotly Express:** Biblioteca para a criação de gráficos interativos e de alta qualidade.
+- **Python:** The main programming language.
+- **Streamlit:** A framework for rapidly creating data web applications.
+- **Pandas:** A library for data manipulation and analysis from the CSV file.
+- **Plotly Express:** A library for creating high-quality, interactive charts.
 
-## 🖼️ Telas da Aplicação
+## 🖼️ Application Screenshots
 
-### Visão Geral (Top 20 Países para uma Métrica)
-A tela principal exibe o ranking dos 20 países com mais casos para a métrica selecionada.
+### Overview (Top 20 Countries for a Metric)
+The main screen displays the ranking of the top 20 countries for the selected metric.
 
-![Visão Geral do Dashboard](imgs/dashboard_geral.png)
+![Dashboard Overview](imgs/covid_dashboard.png)
 
-### Visão Filtrada por País
-Ao selecionar um país, o gráfico foca nos dados daquela região específica.
+### Filtered View by Country
+When a country is selected, the chart focuses on the data for that specific region.
 
-![Visão por País](imgs/dashboard_pais.png)
+![View by Country](imgs/dashboard1)
 
-## ⚙️ Como Executar o Projeto
+![View by Metric](imgs/dashboard2.png)
 
-Siga os passos abaixo para executar o projeto em sua máquina local.
+## ⚙️ How to Run the Project
 
-### Pré-requisitos
+Follow the steps below to run the project on your local machine.
+
+### Prerequisites
 
 - Python 3.8 ou superior
-- `pip` (gerenciador de pacotes do Python)
+- `pip` (Python package manager)
 
-### Passos para Instalação
+### Installation Steps
 
-1. **Clone o repositório** (se estiver usando git):
+1. **Clone the repository** (if you are using git):
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/JoaoPedroHenriquesB/Covid19-DashBoard.git
    cd covid_dashboard
    ```
 
-2. **Instale as dependências** a partir do arquivo `requirements.txt`:
+2. **Install the dependencies** from the `requirements.txt` file:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Execute a aplicação Streamlit:**
+3. **Run the Streamlit application:**
    ```bash
    streamlit run src/covid_dashboard.py
    ```
 
-Após executar o último comando, o dashboard será aberto automaticamente no seu navegador padrão.
+After running the last command, the dashboard will automatically open in your default browser.
