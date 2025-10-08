@@ -34,6 +34,8 @@ When a country is selected, the chart focuses on the data for that specific regi
 
 ![View by Country](imgs/dashboard1)
 
+### Filtered View by Metric
+
 ![View by Metric](imgs/dashboard2.png)
 
 ## ⚙️ How to Run the Project
