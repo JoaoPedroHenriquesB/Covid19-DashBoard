@@ -32,7 +32,7 @@ The main screen displays the ranking of the top 20 countries for the selected me
 ### Filtered View by Country
 When a country is selected, the chart focuses on the data for that specific region.
 
-![View by Country](imgs/dashboard1)
+![View by Country](imgs/dashboard1.png)
 
 ### Filtered View by Metric
 
